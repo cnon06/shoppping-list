@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(run)",
+      "Skill(run:*)",
+      "Bash(cd \"/d/web tutorials/shoppping list\" && which python python3 2>&1; cat /tmp/server.log 2>&1)",
+      "Read(//tmp/**)",
+      "Bash(npx --yes playwright --version)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(npx playwright *)",
+      "Bash(node test_save.mjs)",
+      "Bash(netstat -ano)",
+      "Bash(taskkill //PID 18600 //F)",
+      "Bash(node test_layout.mjs)",
+      "Bash(taskkill //PID 19428 //F)"
+    ]
+  }
+}
